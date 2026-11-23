@@ -38,6 +38,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ast
 │   │   └── a84eaa91965a00af03d8c3576e5b0f32114a06c8
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── a84eaa91965a00af03d8c3576e5b0f32114a06c8.nq.gz
 │   └── repolex
 │       └── a84eaa91965a00af03d8c3576e5b0f32114a06c8
 │           └── chunk-001.nq.gz
@@ -58,6 +60,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── a84eaa91965a00af03d8c3576e5b0f32114a06c8.nq.gz
 ├── filetree
 │   └── a84eaa91965a00af03d8c3576e5b0f32114a06c8.nq.gz
 ├── issue
@@ -67,7 +71,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 20 files
+15 directories, 22 files
 ```
 
 | Directory | What it contains |
@@ -88,4 +92,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [pytest-dev/pytest-repeat](https://github.com/pytest-dev/pytest-repeat)
 
 ---
-*Parsed on 2026-10-11 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-23 by [repolex](https://repolex.ai)*
